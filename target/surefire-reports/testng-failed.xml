@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.hrms.testcases.AddEmployeeTest">
+        <methods>
+          <include name="addEmployee" invocation-numbers="0 1 2"/>
+          <include name="writeReport"/>
+          <include name="tearDown"/>
+          <include name="generateReort"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.hrms.testcases.AddEmployeeTest -->
+      <class name="com.hrms.testcases.LoginTest">
+        <methods>
+          <include name="writeReport"/>
+          <include name="invalidPasswordLogin"/>
+          <include name="tearDown"/>
+          <include name="emptyUsernameLogin"/>
+          <include name="validAdminLogin"/>
+          <include name="generateReort"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.hrms.testcases.LoginTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

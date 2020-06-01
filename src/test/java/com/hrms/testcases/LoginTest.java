@@ -37,11 +37,11 @@ public class LoginTest extends CommonMethods {
 		click(login.loginBtn);
 		
 		test.info("Verifing invalid credential message with the error");
-		String expected = "Invalid credential";
+		String expected = "Invalid credentials";
 		Assert.assertEquals(login.errorMsg.getText(), expected, "Error message text is not matched");
 	}
 
-	@Test(groups="regression")
+	@Test(groups="regressio")
 	public void emptyUsernameLogin() {
 		test.info("try to login without entering username");
 		// LoginPageElements login = new LoginPageElements();

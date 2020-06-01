@@ -259,7 +259,7 @@ public class CommonMethods extends PageInitializer {
 		File file = ts.getScreenshotAs(OutputType.FILE);
 		String destinationFile = Constants.SCREENSHOT_FILEPATH+filename+getTimeStamp()+".png";
 		try {
-			FileUtils.copyFile(file, new File(destinationFile));
+			FileUtils.copyFile(file, new File(destinationFile).getAbsoluteFile());
 		} catch (Exception ex) {
 			System.out.println("Cannot take screenshot!");
 		}

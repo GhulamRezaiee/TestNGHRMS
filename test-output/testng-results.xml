@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="5" total="6" passed="1">
+<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke Suite" duration-ms="9203" started-at="2020-05-31T14:44:21 EDT" finished-at="2020-05-31T14:44:30 EDT">
+  <suite name="Regression Suite" duration-ms="8134" started-at="2020-06-01T12:14:50 EDT" finished-at="2020-06-01T12:14:58 EDT">
     <groups>
-      <group name="smoke">
-        <method signature="LoginTest.validAdminLogin()[pri:0, instance:com.hrms.testcases.LoginTest@78e67e0a]" name="validAdminLogin" class="com.hrms.testcases.LoginTest"/>
-      </group> <!-- smoke -->
+      <group name="regression">
+        <method signature="LoginTest.invalidPasswordLogin()[pri:0, instance:com.hrms.testcases.LoginTest@80503]" name="invalidPasswordLogin" class="com.hrms.testcases.LoginTest"/>
+      </group> <!-- regression -->
     </groups>
-    <test name="Smoke Test" duration-ms="9203" started-at="2020-05-31T14:44:21 EDT" finished-at="2020-05-31T14:44:30 EDT">
+    <test name="Regression Test" duration-ms="8134" started-at="2020-06-01T12:14:50 EDT" finished-at="2020-06-01T12:14:58 EDT">
       <class name="com.hrms.testcases.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginTest@78e67e0a]" name="setUp" is-config="true" duration-ms="4610" started-at="2020-05-31T14:44:21 EDT" finished-at="2020-05-31T14:44:26 EDT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginTest@80503]" name="setUp" is-config="true" duration-ms="5110" started-at="2020-06-01T12:14:50 EDT" finished-at="2020-06-01T12:14:55 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validAdminLogin()[pri:0, instance:com.hrms.testcases.LoginTest@78e67e0a]" name="validAdminLogin" duration-ms="3226" started-at="2020-05-31T14:44:26 EDT" finished-at="2020-05-31T14:44:29 EDT">
+        <test-method status="PASS" signature="invalidPasswordLogin()[pri:0, instance:com.hrms.testcases.LoginTest@80503]" name="invalidPasswordLogin" duration-ms="1601" started-at="2020-06-01T12:14:55 EDT" finished-at="2020-06-01T12:14:57 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validAdminLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginTest@78e67e0a]" name="tearDown" is-config="true" duration-ms="953" started-at="2020-05-31T14:44:29 EDT" finished-at="2020-05-31T14:44:30 EDT">
+        </test-method> <!-- invalidPasswordLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginTest@80503]" name="tearDown" is-config="true" duration-ms="618" started-at="2020-06-01T12:14:57 EDT" finished-at="2020-06-01T12:14:58 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.hrms.testcases.LoginTest -->
       <class name="com.hrms.testcases.AddEmployeeTest">
-        <test-method status="PASS" signature="generateReort()[pri:0, instance:com.hrms.testcases.AddEmployeeTest@30a3107a]" name="generateReort" is-config="true" duration-ms="83" started-at="2020-05-31T14:44:21 EDT" finished-at="2020-05-31T14:44:21 EDT">
+        <test-method status="PASS" signature="generateReort()[pri:0, instance:com.hrms.testcases.AddEmployeeTest@52feb982]" name="generateReort" is-config="true" duration-ms="89" started-at="2020-06-01T12:14:50 EDT" finished-at="2020-06-01T12:14:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReort -->
-        <test-method status="PASS" signature="writeReport()[pri:0, instance:com.hrms.testcases.AddEmployeeTest@30a3107a]" name="writeReport" is-config="true" duration-ms="209" started-at="2020-05-31T14:44:30 EDT" finished-at="2020-05-31T14:44:30 EDT">
+        <test-method status="PASS" signature="writeReport()[pri:0, instance:com.hrms.testcases.AddEmployeeTest@52feb982]" name="writeReport" is-config="true" duration-ms="237" started-at="2020-06-01T12:14:58 EDT" finished-at="2020-06-01T12:14:58 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeReport -->
       </class> <!-- com.hrms.testcases.AddEmployeeTest -->
-    </test> <!-- Smoke Test -->
-  </suite> <!-- Smoke Suite -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Regression Suite -->
 </testng-results>
